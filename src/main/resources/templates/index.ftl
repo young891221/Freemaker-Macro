@@ -1,4 +1,3 @@
-<#--<#import "macro1.ftl" as macro1>-->
 <head>
     <meta charset="UTF-8">
     <title>Freemaker Macro Test</title>
@@ -30,12 +29,5 @@ macro1 파라미터 사용: ${a}, ${b}, ${c}
 </ul>
 </#macro>
 <@list language=["java", "javascript", "freemarker"] title="Language"/>
-
-
-<#--
-<@macro1 1 2 3 4 5 />
-
-<@macro1 a=1 b=2 c=3 d=4 e=5 data\-foo=6 myns\:bar=7 />
--->
 
 </body>

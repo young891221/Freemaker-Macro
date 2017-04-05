@@ -15,8 +15,13 @@ public class YjApplication {
 	}
 
 	@GetMapping("/")
-	public String index(Model model) {
+	public String index() {
 		return "index";
+	}
+
+	@GetMapping("/import")
+	public String importExample() {
+		return "import";
 	}
 
 }
